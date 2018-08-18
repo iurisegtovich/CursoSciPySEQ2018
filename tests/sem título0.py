@@ -1,20 +1,27 @@
-with open("arquivo.txt", 'w') as f:
-    
-    print("abrindo...")
-    f.write("uma frase qualquer na primeira linha")   
-    f.write("\n")
-    
-    #formatação
-    # '{ id : . precision type }'
-    f.write('{:s}\n'.format("olá")) #imprimindo strings
-       
-    f.write('{:d}\n'.format(1))  #imprimindo inteiros
-    
-    f.write('{:.2e}\n'.format(1.963865200092e-3)) #imprimindo decimais
-    f.write('{:.2f}\n'.format(1.963865200092e-3))
-    f.write('{:.2e}\n'.format(1.963865200092e4))
-    f.write('{:.2f}\n'.format(1.963865200092e4))
-    
-    #imprimindo várias coisas
-    f.write("{:.2f} is greater than {:.2f}\n".format(2.,1.5))
+with open("input.txt", 'r') as f:
+   
+    varname=f.readline()
+    print("alimentando", varname, "em x")
+    x=[]
+    linha=f.readline()
+    lista=linha.split(",")
+    for xi in lista:
+        print("convertendo", xi)
+        x.append(float(xi))
+        
+print("x: ",x)
 
+n=len(x)
+print("n: ",n)
+
+with open("data.txt", 'r') as f:
+    import csv
+    data = csv.reader(f)
+    next(data) # skip header
+    T=[]
+    P=[]
+    for row in data:
+        T.append(float(row[0]))
+        P.append(float(row[1]))
+print("T: ", T)
+print("P: ", P)
