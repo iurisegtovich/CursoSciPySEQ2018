@@ -1,4 +1,4 @@
-__doc__='''
+'''
 esse módulo faz a leitura'''
 
 def fazer_leitura():
