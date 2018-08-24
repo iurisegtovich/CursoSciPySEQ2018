@@ -1,0 +1,3 @@
+uma frase qualquer na primeira linha
+o \n com uma barra quebra linha
+com duas a gente imprime a própria barra
