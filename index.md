@@ -26,4 +26,4 @@ O material está dividido em slides para exposição e arquivos python ou jupyte
    1. scipy
    1. sympy
    1. pandas
-1. Resumo do material [[.> aqui]](./arquivos_odp/curso_RESUMO.odp)
+1. Resumo do material [[.> aqui]](https://github.com/iurisegtovich/CursoSciPySEQ2018/blob/master/arquivos_pdf/curso_RESUMO.pdf)
