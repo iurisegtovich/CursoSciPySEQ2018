@@ -1,1 +1,1 @@
-Curso de Introdução à programação para ciência e engenharia em python apresentado na semana da escola de química 2018.
+Material para o curso de Introdução à programação para ciência e engenharia em Python, por Iuri Segtovich, na Semana da Escola de Química da UFRJ, 2018
