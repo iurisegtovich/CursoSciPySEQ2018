@@ -26,3 +26,4 @@ O material está dividido em slides para exposição e arquivos python ou jupyte
    1. scipy
    1. sympy
    1. pandas
+1. Resumo do material [[.> aqui]](./arquivos_odp/curso_RESUMO.odp)
